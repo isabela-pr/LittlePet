@@ -4,8 +4,38 @@ img .imagemlittlepettexto.jpg{
 }
 
 
-.menu{
+.mainNav{
     display: flex;
     justify-content: center;
+    border: none;
+    padding: none;
+    margin: none;
+    
+    }
+
+.masthead li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
 }
+
+.masthead li a {
+    text-decoration: none;
+    color: white;
+}
+.masthead ul{
+    padding: none;
+}
+
+.masthead textarea{
+    
+}
+
+
+
 
