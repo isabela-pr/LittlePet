@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
 
 
@@ -143,6 +143,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Kumbh Sans';
 }
 
 .card img {
@@ -211,14 +212,14 @@ main{
     text-align: center;
     color: #0060D8;
     font-size: 34pt;
-    font-family: brygada 1918;
+    font-family: 'Elsie';
 }
 
 .estoque {
     text-align: center;
     color: #3C5D8F;
     font-size: 24pt;
-    font-family: brygada 1918;
+    font-family: 'Elsie';
 }
 
 #prodEstoque {
@@ -303,12 +304,32 @@ footer h3{
     padding-top: 10px;
 }
 
-.cardLocation img{
-    width: 300px;
-    height: 100px;
-    background-color: white;
-    text-align: center;
-    border-radius: 20px;
-    padding-top: 40px;
-    margin-top: -40px;
+.feedback{
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2em;
+    margin: auto;
 }
+
+.feedback h2{
+    display: flex;
+    justify-content: center;
+    color: #00468E;
+}
+
+.feedback p{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback input{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
