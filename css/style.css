@@ -1,22 +1,22 @@
-body{
+body {
     margin: 0;
 }
 
-img .imagemlittlepettexto.jpg{
+img .imagemlittlepettexto.jpg {
     width: 10px;
     width: 10px;
 }
 
 
-.mainNav{
+.mainNav {
     display: flex;
     justify-content: center;
     border: none;
     padding: none;
     margin: none;
-    background-color: rgb(0, 96,216);
-    
-    }
+    background-color: rgb(0, 96, 216);
+
+}
 
 .masthead li {
     list-style: none;
@@ -33,13 +33,14 @@ img .imagemlittlepettexto.jpg{
     text-decoration: none;
     color: white;
 }
-.masthead ul{
+
+.masthead ul {
     padding: none;
 }
 
-.form-master{
+.form-master {
     text-transform: uppercase;
-    background-color: rgb(0, 96,216);
+    background-color: rgb(0, 96, 216);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     padding: 2em;
     display: flex;
@@ -48,23 +49,75 @@ img .imagemlittlepettexto.jpg{
     color: white;
 }
 
-.form-master input{
+.form-master input {
     border-radius: 40px;
     background: white;
     border: 2px solid black;
     width: 50em;
-    height: 2em;
-    }
+    height: 3em;
+}
 
-.linha{
+.linha {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
-.coluna{
-    width: 30%;
+.coluna1 {
+    position: absolute;
+    padding-left: 3em;
 }
 
+.coluna2 {
+    display: flex;
+}
 
+.rodape,
+.rodape a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
 
+.slogan {
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    font-size: 34pt;
+    /* font-family: ; */
+}
 
+.animais{
+    display: flex;
+    gap: 2em;
+    padding-top: 20px;
+    overflow-x: auto;
+}
+
+.animais::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #00468E;
+}
+
+#welcome{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
