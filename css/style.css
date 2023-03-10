@@ -82,8 +82,9 @@ img .imagemlittlepettexto.jpg {
 .slogan {
     text-align: center;
     background-color: rgb(217, 217, 217);
+    color: #00468E;
     font-size: 34pt;
-    /* font-family: ; */
+     font-family:brygada 1918 ; 
 }
 
 .animais{
@@ -100,7 +101,7 @@ img .imagemlittlepettexto.jpg {
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -116,8 +117,75 @@ img .imagemlittlepettexto.jpg {
 }
 
 .welcome{
-    width: 500px;
+    width: 700px;
     height: 200px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(169, 169, 169);
+}
+
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn input{
+    display: flex;
+    justify-content: center;
+    background-color: #00468E;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    width: 15em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+.form-btn2 input{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #00468E;
+    border: none;
+    border-radius: 2em;
+    width: 15em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+#separador{
+    display: flex;
+    justify-content: center;
+}
+
+.separador img{
+    width: 40em;
+}
+
+.promoção{
+        text-align: center;
+        color: #0060D8;
+        font-size: 34pt;
+         font-family:brygada 1918 ; 
+}
+
+.estoque{
+    text-align: center;
+        color: #3C5D8F;
+        font-size: 24pt;
+         font-family:brygada 1918 ; 
+}
+
+#prodEstoque{
+    display: flex;
+    justify-content: center;
+}
+
+.prodEstoque{
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(169, 169, 169);
 }
