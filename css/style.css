@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+poc@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kavoon');
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Economica&family=Jockey+One&display=swap');
@@ -232,7 +232,7 @@ main{
     /* height: 700px; */
     border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(169, 169, 169);
+    box-shadow: 5px 5px 10px #FFFFFF;
     background-color: #E2DFDF;
     padding-top: 3em;
     padding-bottom: 3em;
@@ -307,29 +307,90 @@ footer h3{
 .feedback{
     width: fit-content;
     text-transform: uppercase;
-    background-color: #f1f1f1;
+    background-color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid black;
     padding: 2em;
     margin: auto;
+    font-family: 'IM fell Great Primer';
+}
+
+.feedback textarea{
+    display: flex;
+    justify-content: center;
+    height: 8em;
+    width: 17em;
+    font-family: 'IM fell Great Primer';
 }
 
 .feedback h2{
     display: flex;
     justify-content: center;
     color: #00468E;
+    font-family: 'IM fell Great Primer';
 }
 
 .feedback p{
     display: flex;
     justify-content: center;
+    font-family: 'IM fell Great Primer';
 }
 
 .feedback input{
     display: flex;
     justify-content: center;
+    border: none;
+    background-color: #00468E; 
+    color: #FFFFFF;
+    width: fit-content;
+    font-family: 'IM fell Great Primer';
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+    font-family: 'IM fell Great Primer';
+}
+
+.enviar input{
+    border: none;
+    background-color: #00468E; 
+    color: #FFFFFF;
+    height: 2.5em;
+    width: 8em;
+    font-family: 'IM fell Great Primer';
 }
 
 
 
+.entre{
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    margin: auto;
+    position: center;
+    
+    
+}
 
+#bannerPromo{
+    display: flex;
+    justify-content: center;
+}
+.bannerPromo{
+width: 700px;
+    /* height: 700px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #FFFFFF;
+    background-color: #E2DFDF;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
